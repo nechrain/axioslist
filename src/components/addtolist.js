@@ -3,7 +3,7 @@ import axios from "axios";
 
 class Addtolist extends Component {
   state = {
-    title: "",
+    title: ""
   };
 
   handleChange = (event) => {
@@ -13,11 +13,9 @@ class Addtolist extends Component {
   handleSubmit = (event) => {
     event.preventDefault();
 
-    const add = {
-      title: this.state.title,
-    };
+  const title = this.state.title
 
-    axios.post(`http://localhost:3000/todos`, { add }).then((res) => {
+    axios.post(`http://localhost:3000/todos`, { title }).then((res) => {
       console.log(res);
       console.log(res.data);
     });
