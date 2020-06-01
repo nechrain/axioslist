@@ -27,10 +27,12 @@ margin-left: 450px;
   100% { transform: rotate(360deg); }
 }
 li{
-  background-color: rgb(255, 0, 106);
+  
   font-family: fantasy;
   font-size: 20px;
   color: rgb(211, 77, 139);
+  list-style: none;
+  text-align: center;
   
 }
 .list{
@@ -45,5 +47,23 @@ li{
 .container{
   background-image: url("https://i0.wp.com/talentedgirls.fr/wp-content/uploads/2014/10/atout-reussite-pro-agenda-pour-maman-entrepreneures-talented-girls-2.jpg?resize=560%2C371&ssl=1");
 background-size: cover;
+margin: 10%;
+border-radius: 7%;
+border:5px solid purple;
 
+}
+.addbutton{
+  border: 3px solid rgb(204, 30, 210);
+  border-radius: 50%;
+  margin-left: 10px;
+  color: palevioletred;
+  background-color: rgb(203, 205, 63);
+}
+input{
+  border: 3px solid yellow;
+  margin-left: 50px;
+  width: 300px;
+  margin-top: 50px;
+  height: 30px;
+  border-radius: 7%;
 }
